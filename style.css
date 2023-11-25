@@ -1,0 +1,229 @@
+*{ 
+    padding: 0; 
+    margin: 4px; 
+    font-family: 'Display', Mont; 
+    box-sizing: border-box; 
+} 
+
+header{ 
+    font-style: serif; 
+    text-align: center; 
+    padding: 40px; 
+} 
+
+h1{ 
+    padding: 20px; 
+    font-size: 100px; 
+    color: #E6E6FA;
+} 
+
+h3{ 
+    align-content: center; 
+} 
+
+body{ 
+    font-family: 'Display', 'Mont', 'Montserrat', Lato, Roboto Mono; 
+    font-size: large; 
+} 
+
+nav ul li{ 
+    display: inline;
+    margin: 25px; 
+} 
+
+ul li a{
+    align-items: center;
+}
+ 
+h2{ 
+    font-size: 50px; 
+    color: balck; 
+    padding: 20px; 
+    align-items: center;
+} 
+
+p{ 
+    padding: 20px; 
+    font-family: Display; 
+    font-style: oblique; 
+    font-size: 20px; 
+    color: black;
+    align-items: center;
+} 
+
+.navbar {
+    background-color: rgb(84, 59, 224);
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    color: rgb(229, 228, 247);
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: azure;
+    color: rgb(16, 7, 44);
+  }
+  
+  .navbar a.active {
+    color: azure;
+  }
+
+.teamlogo{
+    width: 13%;
+    float: left;
+  }
+
+.adalogo {
+    width: 15%;
+    float: right;
+}
+
+.hour-of-code-logo{
+    float: right;
+    width: 10%;
+} 
+
+.event{ 
+    text-align: left; 
+}  
+
+
+.team-member {
+    margin-left: auto;
+    margin-right: auto;
+    width:  auto;
+    height: auto;
+    display: flexbox;
+    
+} 
+
+iframe{
+    margin-right: 50px;
+    margin-left: 50px;
+} 
+
+#members { 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    text-align: center;
+} 
+ 
+#members a{
+    color: black;
+    background-color:rgb(229, 228, 247);
+}
+
+table{ 
+    margin: 20px; 
+    color: black;
+} 
+
+tr{ 
+    height: 100px; 
+    width: 300px; 
+    margin: 20px; 
+} 
+ 
+td { 
+    padding: 20px; 
+    border: 1px solid azure;
+    margin: 40px; 
+    min-height: fit-content; 
+    width: 400px; 
+    overflow: hidden; 
+} 
+ 
+th{ 
+    padding: 5px; 
+    border: 1px solid azure; 
+    margin: 10px auto; 
+    min-height: fit-content; 
+    width: 400px; 
+    overflow: hidden; 
+
+} 
+ 
+.name{ 
+    text-align: center; 
+} 
+ 
+.percentage{ 
+    text-align: center; 
+} 
+ 
+.slider{
+    margin: 50px auto;
+    width: 50%;
+    size: 50%;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.btn{
+    background: #888;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.slider-img {
+    width: 100%;
+    height: 70%;
+    right: 15%;
+    float: inline-start;
+} 
+
+
+* {box-sizing:border-box}
+
+.photoshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: lavender;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 5px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgb(19, 1, 38);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+  } 
